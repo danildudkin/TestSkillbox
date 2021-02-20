@@ -14,6 +14,8 @@
 		A7A5892225CC72AC0041C4FD /* Lesson14_C.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7A5892025CC72AC0041C4FD /* Lesson14_C.xcdatamodeld */; };
 		A7A5892425CC72AE0041C4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A5892325CC72AE0041C4FD /* Assets.xcassets */; };
 		A7A5892725CC72AE0041C4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A5892525CC72AE0041C4FD /* LaunchScreen.storyboard */; };
+		A7A5893025CC736C0041C4FD /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5892F25CC736C0041C4FD /* CoreData.swift */; };
+		A7A5893425CC74790041C4FD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5893325CC74790041C4FD /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A7A5892325CC72AE0041C4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A5892625CC72AE0041C4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A5892825CC72AE0041C4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A5892F25CC736C0041C4FD /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		A7A5893325CC74790041C4FD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				A7A5891725CC72AC0041C4FD /* AppDelegate.swift */,
 				A7A5891925CC72AC0041C4FD /* SceneDelegate.swift */,
-				A7A5891B25CC72AC0041C4FD /* ViewController.swift */,
 				A7A5891D25CC72AC0041C4FD /* Main.storyboard */,
+				A7A5891B25CC72AC0041C4FD /* ViewController.swift */,
+				A7A5892F25CC736C0041C4FD /* CoreData.swift */,
+				A7A5893325CC74790041C4FD /* TableViewCell.swift */,
 				A7A5892325CC72AE0041C4FD /* Assets.xcassets */,
 				A7A5892525CC72AE0041C4FD /* LaunchScreen.storyboard */,
 				A7A5892825CC72AE0041C4FD /* Info.plist */,
@@ -143,7 +149,9 @@
 				A7A5891C25CC72AC0041C4FD /* ViewController.swift in Sources */,
 				A7A5891825CC72AC0041C4FD /* AppDelegate.swift in Sources */,
 				A7A5892225CC72AC0041C4FD /* Lesson14_C.xcdatamodeld in Sources */,
+				A7A5893425CC74790041C4FD /* TableViewCell.swift in Sources */,
 				A7A5891A25CC72AC0041C4FD /* SceneDelegate.swift in Sources */,
+				A7A5893025CC736C0041C4FD /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Lesson14_C/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Lesson14_C/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
